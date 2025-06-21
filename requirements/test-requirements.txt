@@ -13,3 +13,4 @@ build>=1.2.0; python_version >= '3.8'
 mdformat-gfm
 mdformat-frontmatter
 mdformat-footnote
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
